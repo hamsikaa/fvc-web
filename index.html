@@ -2,6 +2,7 @@
 <html> 
 
 <head> 
+    <meta charset="UTF-8">
     <title>Foundation Vedanta Course</title> 
     <link href='https://fonts.googleapis.com/css?family=Mukta' rel='stylesheet' type='text/css'>
     
@@ -140,7 +141,7 @@
             e.src = urls[urlIndex];
             document.getElementById('fab').innerHTML = " + ";
             var sUrlIndex = urlIndex.toString();
-            window.history.pushState('Lesson ' + sUrlIndex, 'FVC - Lesson' + sUrlIndex, 'index.html/?lesson=' + sUrlIndex);
+            window.history.pushState('Lesson ' + sUrlIndex, 'FVC - Lesson' + sUrlIndex, '/?lesson=' + sUrlIndex);
         }
         
         function on_load() {
